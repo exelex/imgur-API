@@ -56,6 +56,10 @@
 		D02545A526A7DDF90073C6C0 /* lexer_imgur */ = {
 			isa = PBXGroup;
 			children = (
+				D02545BE26A7DEC10073C6C0 /* Utility */,
+				D02545BD26A7DE6C0073C6C0 /* Controller */,
+				D02545BC26A7DE650073C6C0 /* External */,
+				D02545BB26A7DE5D0073C6C0 /* Model */,
 				D02545A626A7DDF90073C6C0 /* AppDelegate.swift */,
 				D02545A826A7DDF90073C6C0 /* SceneDelegate.swift */,
 				D02545AA26A7DDF90073C6C0 /* ViewController.swift */,
@@ -65,6 +69,34 @@
 				D02545B426A7DDFB0073C6C0 /* Info.plist */,
 			);
 			path = lexer_imgur;
+			sourceTree = "<group>";
+		};
+		D02545BB26A7DE5D0073C6C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D02545BC26A7DE650073C6C0 /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		D02545BD26A7DE6C0073C6C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D02545BE26A7DEC10073C6C0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
