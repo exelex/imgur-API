@@ -17,6 +17,7 @@ class NetworkService {
     let session = URLSession.shared
     
     func getImgurs(success successBlock: @escaping (GetImgursResponse) -> Void) {
+        // результат на странице https://imgur.com/search?q=painting&q_size_px=small&q_type=jpg
         guard let url = URL(string: "https://api.imgur.com/3/gallery/search/top/?q=painting&q_size_px=small&q_type=jpg") else { return }
         
         var request = URLRequest(url: url)
